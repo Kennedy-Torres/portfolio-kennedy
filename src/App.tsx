@@ -1,19 +1,19 @@
 import { Header } from './components/Header';
 import { Hero } from './sections/Hero';
+import { Projects } from './sections/Projects';
+import { Footer } from './components/Footer';
 
 export default function App() {
   return (
-    <div className="min-h-screen bg-gray-50">
+    <div className="min-h-screen bg-gray-50 flex flex-col">
       <Header />
       
-      <main className="flex flex-col items-center w-full">
+      <main className="flex flex-col items-center w-full flex-grow">
         <Hero />
-        
-        {/* futura seção de projetos */}
-        <div id="projetos" className="w-full py-20 bg-white text-center">
-           <h3 className="text-3xl font-bold text-gray-800">Meus Projetos (Em breve)</h3>
-        </div>
+        <Projects />
       </main>
+
+      <Footer />
     </div>
   );
 }
