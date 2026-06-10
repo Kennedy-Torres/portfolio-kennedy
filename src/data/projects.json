@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "title": "ProfeRadar",
+    "description": "Plataforma educacional desenvolvida com arquitetura full-stack. O sistema gerencia dados e interações entre usuários.",
+    "technologies": ["React", "Python", "Flask", "MongoDB"],
+    "githubUrl": "https://github.com/SEU-USUARIO/proferadar",
+    "liveUrl": "",
+    "architectureNotes": "Separação clara entre o frontend em React e a API RESTful construída com Flask."
+  },
+  {
+    "id": 2,
+    "title": "Caderno de Erros Digital",
+    "description": "Ferramenta para leitura e organização visual de questões de provas e simulados a partir de dados estruturados.",
+    "technologies": ["HTML", "CSS", "JavaScript", "JSON"],
+    "githubUrl": "https://github.com/SEU-USUARIO/caderno-erros",
+    "liveUrl": "",
+    "architectureNotes": "Foco na manipulação do DOM e leitura dinâmica de arquivos estáticos."
+  }
+]
