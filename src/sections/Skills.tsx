@@ -6,11 +6,11 @@ export function Skills() {
     },
     {
       category: "Backend",
-      skills: ["Python", "Java", "Flask", "APIs RESTful", "Node.js"],
+      skills: ["Python", "Java", "Spring Boot", "APIs RESTful", "FastAPI ", "Supabase"],
     },
     {
       category: "Dados & Ferramentas",
-      skills: ["PostgreSQL", "MongoDB", "Git / GitHub", "Docker", "VS Code"],
+      skills: ["PostgreSQL", "MongoDB", "Git / GitHub / GitLab", "Docker"],
     },
   ];
 
