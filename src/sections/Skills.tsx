@@ -15,15 +15,15 @@ export function Skills() {
   ];
 
   return (
-    <section id="skills" className="w-full bg-gray-50 py-20 px-4">
-      <div className="max-w-6xl mx-auto">
-        {/* Título integrado ao padrão azul do site */}
+    <section id="skills" className="w-full bg-gray-50 py-16 px-4 border-t border-gray-200/60">
+      <div className="max-w-4xl mx-auto">
+        {/* Título com indicador numérico 02 */}
         <div className="flex items-center gap-3 mb-10">
           <span className="text-blue-600 font-mono text-xl font-bold">02</span>
           <h2 className="text-3xl font-bold text-gray-900">Skills</h2>
         </div>
 
-        {/* Grid de Cards no tema claro */}
+        {/* Grid de Cards ajustado para o container max-w-4xl */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {skillCategories.map((group, index) => (
             <div 
