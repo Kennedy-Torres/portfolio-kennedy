@@ -1,5 +1,11 @@
 @import "tailwindcss";
 
+@variant dark (&:where(.dark, .dark *));
+
+body {
+  @apply bg-white text-gray-900 dark:bg-[#0a1120] dark:text-gray-100 transition-colors duration-200;
+}
+
 /* faz todas as âncoras da página deslizarem suavemente */
 html {
   scroll-behavior: smooth;
