@@ -4,7 +4,7 @@ export function Header() {
       <nav className="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
         {/* Logo / Nome */}
         <span className="text-xl font-bold text-gray-800">
-          &lt;KennedyTorres /&gt;
+          &lt;KNDTorresG/&gt;
         </span>
 
         {/* Links de Navegação */}
@@ -13,6 +13,9 @@ export function Header() {
             <a href="#sobre" className="hover:text-blue-600 transition-colors">
               Sobre Mim
             </a>
+          </li>
+          <li>
+            <a href="#skills" className="hover:text-blue-600 transition-colors">Skills</a>
           </li>
           <li>
             <a href="#projetos" className="hover:text-blue-600 transition-colors">

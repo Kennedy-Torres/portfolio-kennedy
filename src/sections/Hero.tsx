@@ -27,7 +27,7 @@ export function Hero() {
           Ver meus Projetos
         </a>
         <a 
-          href="https://github.com/SEU-USUARIO" 
+          href="https://github.com/Kennedy-Torres" 
           target="_blank" 
           rel="noopener noreferrer" 
           className="bg-gray-800 text-white px-8 py-3 rounded-lg font-medium hover:bg-gray-900 transition-colors shadow-md flex items-center justify-center gap-2"

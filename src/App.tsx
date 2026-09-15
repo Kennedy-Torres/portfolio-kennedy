@@ -1,5 +1,6 @@
 import { Header } from './components/Header';
 import { Hero } from './sections/Hero';
+import { Skills } from './sections/Skills';
 import { Projects } from './sections/Projects';
 import { Footer } from './components/Footer';
 
@@ -10,6 +11,7 @@ export default function App() {
       
       <main className="flex flex-col items-center w-full flex-grow">
         <Hero />
+        <Skills />
         <Projects />
       </main>
 

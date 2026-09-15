@@ -1,1 +1,6 @@
 @import "tailwindcss";
+
+/* faz todas as âncoras da página deslizarem suavemente */
+html {
+  scroll-behavior: smooth;
+}
