@@ -21,6 +21,7 @@ export function Projects() {
               description={project.description}
               technologies={project.technologies}
               githubUrl={project.githubUrl}
+              deployUrl={project.deployUrl}
             />
           ))}
         </div>
