@@ -20,13 +20,13 @@ export function Footer() {
 
         {/* Título principal */}
         <h2 className="text-4xl sm:text-5xl font-bold text-white mb-6 tracking-tight">
-          Vamos construir algo juntos?
+          Como posso ajudar seu projeto a evoluir? 
         </h2>
 
         {/* Descrição */}
         <p className="text-gray-400 text-lg max-w-xl mx-auto mb-10 leading-relaxed">
-          Estou aberto a oportunidades, freelas e boas conversas sobre tecnologia. 
-          Me chama por qualquer um dos canais abaixo.
+          Estou disponível para colaborar e gerar valor ao seu negócio.<br/>
+          Entre em contato pelo canal que preferir.
         </p>
 
         {/* Botão dinâmico de copiar E-mail */}
