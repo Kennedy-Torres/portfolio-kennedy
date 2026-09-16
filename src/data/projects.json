@@ -1,20 +1,29 @@
 [
   {
     "id": 1,
-    "title": "ProfeRadar",
-    "description": "Plataforma educacional desenvolvida com arquitetura full-stack. O sistema gerencia dados e interações entre usuários.",
-    "technologies": ["React", "Python", "Flask", "MongoDB"],
-    "githubUrl": "https://github.com/SEU-USUARIO/proferadar",
+    "title": "Argos Forense - Sistema de Monitoramento & Gestão de Acesso",
+    "description": "Solução SaaS para análise forense digital e operações de segurança (SOC). Monitora acessos, detecta atividades suspeitas com regras heurísticas e gera relatórios de conformidade.",
+    "technologies": ["React", "Python", "Docker", "MongoDB", "Arquitetura em Camadas"],
+    "githubUrl": "https://github.com/ArgosForense/Analisador-Forense.git",
     "liveUrl": "",
-    "architectureNotes": "Separação clara entre o frontend em React e a API RESTful construída com Flask."
+    "architectureNotes": ""
   },
   {
     "id": 2,
-    "title": "Caderno de Erros Digital",
-    "description": "Ferramenta para leitura e organização visual de questões de provas e simulados a partir de dados estruturados.",
-    "technologies": ["HTML", "CSS", "JavaScript", "JSON"],
-    "githubUrl": "https://github.com/SEU-USUARIO/caderno-erros",
-    "liveUrl": "",
-    "architectureNotes": "Foco na manipulação do DOM e leitura dinâmica de arquivos estáticos."
+    "title": "Assistente de Contextualização de Vídeos YT",
+    "description": "Agente de IA que automatiza o download de vídeos do YouTube, utiliza a API do Gemini para processar o contexto audiovisual, gerando transcrições, resumos estruturados e arquivos de legenda e armazena os arquivos na nuvem do Google Drive.",
+    "technologies": ["Python", "Gemini API", "Google Colab", "Google Drive API"],
+    "githubUrl": "https://github.com/Kennedy-Torres/Assistente_de_Contextualizacao_de_Videos_YT.git",
+    "liveUrl": "https://colab.research.google.com/drive/1vPMsKImVtf0n9tZn7pUJkS2OEQN8P0en?usp=sharing#scrollTo=pYiMfFPPMxTk",
+    "architectureNotes": ""
+  },
+  {
+    "id": 3,
+    "title": "Bolão & Simulador Serverless - Copa 2026",
+    "description": "Plataforma full-stack para palpites e ranking em tempo real da Copa do Mundo 2026. Conta com autenticação segura (Supabase Auth/RLS), painel administrativo e automação serverless (Edge Functions) para sincronização ao vivo dos placares oficiais via API esportiva.",
+    "technologies": ["JavaScript", "Supabase", "PostgreSQL", "Edge Functions", "REST API"],
+    "githubUrl": "https://github.com/Kennedy-Torres/simulador-copa-v2.git",
+    "liveUrl": "https://simulador-copamundo-2026.netlify.app/",
+    "architectureNotes": ""
   }
 ]
