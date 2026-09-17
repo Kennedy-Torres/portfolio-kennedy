@@ -9,20 +9,20 @@ export function Hero() {
 
         {/* Nome com tipografia expansiva */}
         <h1 className="text-5xl sm:text-7xl font-extrabold text-gray-900 dark:text-white tracking-tight mb-4">
-          Kennedy Rodrigo Torres Gonçalves<span className="text-blue-600 dark:text-blue-400">.</span>
+          Kennedy R. Torres Gonçalves<span className="text-blue-600 dark:text-blue-400">.</span>
         </h1>
 
         {/* Cargo */}
         <h2 className="text-2xl sm:text-3xl font-semibold text-gray-600 dark:text-gray-400 mb-6">
-          Desenvolvedor Java | Full Stack
+          Desenvolvedor Full Stack | Java & Python | React & TypeScript
         </h2>
 
         {/* Resumo com destaques em negrito */}
         <p className="text-gray-600 dark:text-gray-300 text-lg leading-relaxed mb-6 max-w-3xl">
-          Construo aplicações web de ponta a ponta com{" "}
-          <strong className="text-gray-900 dark:text-white font-semibold">React, TypeScript</strong>{" "}
-          no front e <strong className="text-gray-900 dark:text-white font-semibold">Python e Java</strong>{" "}
-          no back — de plataformas educacionais e ferramentas de análise a sistemas de gestão eficientes.
+          Construo aplicações escaláveis de ponta a ponta. Crio interfaces modernas e responsivas com{" "}
+          <strong className="text-gray-900 dark:text-white font-semibold">React e TypeScript,</strong>{" "}
+          sustentadas por APIs robustas construídas em <strong className="text-gray-900 dark:text-white font-semibold">Java com Spring Boot e Python.</strong>{" "}
+          Tenho experiência com <strong className="text-gray-900 dark:text-white font-semibold">modelagem de bancos de dados, arquiteturas em camadas, serverless e integração de IA</strong>{" "} para entregar soluções completas e eficientes.
         </p>
 
         {/* Tag de Localização */}
