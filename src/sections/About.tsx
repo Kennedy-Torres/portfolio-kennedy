@@ -11,16 +11,15 @@ export function About() {
         {/* Texto narrativo */}
         <div className="text-gray-600 dark:text-gray-300 text-lg leading-relaxed space-y-4">
           <p>
-            Sou estudante de TI com foco prático no desenvolvimento de software de alta performance. 
-            Atuo na criação de soluções full stack utilizando{" "}
-            <strong className="text-gray-900 dark:text-white font-semibold">React, TypeScript e Tailwind CSS</strong> no front-end, 
-            combinados com ecossistemas robustos no back-end como{" "}
-            <strong className="text-gray-900 dark:text-white font-semibold">Python (Flask) e Java</strong>.
+            Sou formado em{" "}<strong className="text-gray-900 dark:text-white font-semibold">Ciência da Computação pela UCB (2025)</strong>{" "} e
+            atuo como{" "}<strong className="text-gray-900 dark:text-white font-semibold">Desenvolvedor Full Stack</strong>{" "}
+            focado em construir sistemas robustos de ponta a ponta.{" "} Minha base tecnológica transita entre o ecossistema JavaScript{" "}
+            <strong className="text-gray-900 dark:text-white font-semibold">(React e TypeScript)</strong> e back-ends sólidos em
+            {" "}<strong className="text-gray-900 dark:text-white font-semibold">Java e Python</strong> integrados a{" "}
+            <strong className="text-gray-900 dark:text-white font-semibold">bancos de dados relacionais e NoSQL.</strong> Atualmente, estou aberto a oportunidades no mercado, com muita disposição para aprender, focado em acumular experiência técnica, enfrentar desafios arquiteturais e gerar valor real às equipes.
           </p>
           <p>
-            Tenho experiência na estruturação de bancos de dados relacionais e NoSQL (PostgreSQL, MongoDB), 
-            criação de APIs RESTful e integração de sistemas. Gosto de resolver problemas onde a arquitetura, 
-            a organização de código e a regra de negócio exigem rigor técnico e boas práticas.
+            Durante minha formação, criei uma base prática passando por todas as etapas do{" "}<strong className="text-gray-900 dark:text-white font-semibold">ciclo de vida de desenvolvimento de software.</strong> Já colaborei no levantamento de requisitos, implementei wireframes para o design, transformei regras de negócio em arquitetura e atuei na{" "}<strong className="text-gray-900 dark:text-white font-semibold">integração de APIs e modelagem de bancos de dados</strong> — do diagrama conceitual (DER) à implementação física. Tenho compromisso com boas práticas de código, testes e deploy, atuando sempre com transparência através de{" "}<strong className="text-gray-900 dark:text-white font-semibold">metodologias ágeis (Kanban e Scrum)</strong>, versionamento de código e documentação clara.
           </p>
         </div>
       </div>
