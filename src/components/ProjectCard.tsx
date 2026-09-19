@@ -1,3 +1,5 @@
+import ReactMarkdown from "react-markdown";
+
 interface ProjectCardProps {
   title: string;
   description: string;
@@ -16,7 +18,7 @@ export function ProjectCard({ title, description, technologies, githubUrl, deplo
 
       {/* Descrição */}
       <p className="text-gray-600 dark:text-gray-300 mb-6 flex-grow leading-relaxed">
-        {description}
+        <ReactMarkdown>{description}</ReactMarkdown>
       </p>
 
       {/* Badges de Tecnologias */}
