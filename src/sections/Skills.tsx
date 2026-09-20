@@ -1,16 +1,16 @@
 export function Skills() {
   const skillCategories = [
     {
-      category: "Frontend",
-      skills: ["React", "TypeScript", "JavaScript", "Tailwind CSS", "HTML5 / CSS3"],
+      category: "Front-End",
+      skills: ["React", "TypeScript", "Tailwind CSS"],
     },
     {
-      category: "Backend",
-      skills: ["Python", "Java", "Spring Boot", "APIs RESTful", "FastAPI ", "Supabase"],
+      category: "Back-End & Arquitetura",
+      skills: ["Java (Spring Boot)", "Python (FastAPI)", "APIs REST", "Arquitetura em Camadas"],
     },
     {
-      category: "Dados & Ferramentas",
-      skills: ["PostgreSQL", "MongoDB", "Git / GitHub / GitLab", "Docker"],
+      category: "Dados & Infraestrutura",
+      skills: ["MySQL & MongoDB", "Supabase (Serverless & PostgreSQL)", "Modelagem de Dados (Conceitual, Lógica e Física)", "Git / GitHub / GitLab", "Docker"],
     },
   ];
 
