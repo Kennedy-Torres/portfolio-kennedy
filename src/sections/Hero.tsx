@@ -64,9 +64,14 @@ export function Hero() {
             LinkedIn
           </a>
           <a
-            href="#contato"
+            href="/CV_Kennedy_Torres.pdf"
+            download="Curriculo_Kennedy_Torres.pdf"
+            target="_blank"
             className="bg-white border border-gray-300 text-gray-800 dark:bg-[#111c30] dark:border-gray-700 dark:text-gray-200 dark:hover:bg-[#182642] px-6 py-3 rounded-lg font-medium hover:bg-gray-100 transition-colors shadow-sm flex items-center gap-2"
           >
+            <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
+            </svg>
             Baixar CV
           </a>
         </div>
