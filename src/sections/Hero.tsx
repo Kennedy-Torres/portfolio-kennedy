@@ -64,7 +64,7 @@ export function Hero() {
             LinkedIn
           </a>
           <a
-            href="../portfolio-kennedy/public/cv-kennedy-torres.pdf"
+            href="../portfolio-kennedy/cv-kennedy-torres.pdf"
             download
             target="_blank"
             rel="noopener noreferrer"
