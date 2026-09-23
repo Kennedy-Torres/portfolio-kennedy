@@ -14,7 +14,7 @@ export function Footer() {
       <div className="max-w-4xl mx-auto text-center">
         
         {/* Identificador numérico */}
-        <p className="text-blue-500 font-mono text-sm font-semibold mb-4 tracking-wider">
+        <p className="text-emerald-500 font-mono text-sm font-semibold mb-4 tracking-wider">
           04 — Contato
         </p>
 

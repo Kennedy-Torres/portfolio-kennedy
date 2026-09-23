@@ -1,21 +1,32 @@
 export function Hero() {
   return (
-    <section id="hero" className="w-full bg-gray-50 dark:bg-[#0a1120] pt-20 pb-12 px-4 transition-colors duration-200">
+    <section
+      id="hero"
+      className="relative w-full min-h-[80vh] flex items-center bg-gray-50 dark:bg-[#0a1120] bg-[linear-gradient(to_right,#80808012_1px,transparent_1px),linear-gradient(to_bottom,#80808012_1px,transparent_1px)] bg-[size:24px_24px] pt-20 pb-12 px-4 transition-colors duration-200"
+    >
       <div className="max-w-4xl mx-auto">
-        {/* Saudação com cor de destaque */}
-        <p className="text-blue-600 dark:text-blue-400 font-mono font-semibold text-base mb-3">
-          Olá, meu nome é
+        {/* Saudação estilo Terminal */}
+        <p className="text-emerald-600 dark:text-emerald-400 font-mono font-medium text-base mb-3">
+          &gt;_ olá, meu nome é
         </p>
 
-        {/* Nome com tipografia expansiva */}
         <h1 className="text-5xl sm:text-7xl font-extrabold text-gray-900 dark:text-white tracking-tight mb-4">
-          Kennedy R. Torres Gonçalves<span className="text-blue-600 dark:text-blue-400">.</span>
+          Kennedy R. Torres Gonçalves<span className="text-emerald-600 dark:text-emerald-400">.</span>
         </h1>
 
-        {/* Cargo */}
-        <h2 className="text-2xl sm:text-3xl font-semibold text-gray-600 dark:text-gray-400 mb-6">
-          Desenvolvedor Full Stack | Java & Python | React & TypeScript
-        </h2>
+        {/* Cargo com Tech Pills */}
+        <div className="flex flex-wrap items-center gap-3 mt-4 mb-6">
+          <span className="text-xl sm:text-2xl font-semibold text-gray-700 dark:text-gray-300">
+            Desenvolvedor Full Stack
+          </span>
+          <div className="hidden sm:block w-1.5 h-1.5 rounded-full bg-gray-400 dark:bg-gray-600"></div>
+          <span className="px-3 py-1 rounded-full bg-blue-50 dark:bg-blue-900/20 text-blue-700 dark:text-blue-300 text-sm font-medium border border-blue-200 dark:border-blue-800/30">
+            Java & Python
+          </span>
+          <span className="px-3 py-1 rounded-full bg-sky-50 dark:bg-sky-900/20 text-sky-700 dark:text-sky-300 text-sm font-medium border border-sky-200 dark:border-sky-800/30">
+            React & TypeScript
+          </span>
+        </div>
 
         {/* Resumo com destaques em negrito */}
         <p className="text-gray-600 dark:text-gray-300 text-lg leading-relaxed mb-6 max-w-3xl">

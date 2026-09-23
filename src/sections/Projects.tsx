@@ -8,7 +8,7 @@ export function Projects() {
         
         {/* Título padronizado com a numeração 03 */}
         <div className="flex items-center gap-3 mb-10">
-          <span className="text-blue-600 dark:text-blue-400 font-mono text-xl font-bold">03</span>
+          <span className="text-emerald-600 dark:text-emerald-400 font-mono text-xl font-bold">03</span>
           <h2 className="text-3xl font-bold text-gray-900 dark:text-white">Meus Projetos</h2>
         </div>
         

@@ -19,7 +19,7 @@ export function Skills() {
       <div className="max-w-4xl mx-auto">
         {/* Título com indicador numérico 02 */}
         <div className="flex items-center gap-3 mb-10">
-          <span className="text-blue-600 dark:text-blue-400 font-mono text-xl font-bold">02</span>
+          <span className="text-emerald-600 dark:text-emerald-400 font-mono text-xl font-bold">02</span>
           <h2 className="text-3xl font-bold text-gray-900 dark:text-white">Skills</h2>
         </div>
 
@@ -34,7 +34,7 @@ export function Skills() {
               <ul className="space-y-3">
                 {group.skills.map((skill, i) => (
                   <li key={i} className="flex items-center text-gray-600 dark:text-gray-300 text-sm font-medium">
-                    <span className="text-blue-600 dark:text-blue-400 mr-2 text-xs">▸</span>
+                    <span className="text-emerald-600 dark:text-emerald-400 mr-2 text-xs">▸</span>
                     {skill}
                   </li>
                 ))}

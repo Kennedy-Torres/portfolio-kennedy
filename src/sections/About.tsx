@@ -4,7 +4,7 @@ export function About() {
       <div className="max-w-4xl mx-auto">
         {/* Título com indicador numérico 01 */}
         <div className="flex items-center gap-3 mb-8">
-          <span className="text-blue-600 dark:text-blue-400 font-mono text-xl font-bold">01</span>
+          <span className="text-emerald-600 dark:text-emerald-400 font-mono text-xl font-bold">01</span>
           <h2 className="text-3xl font-bold text-gray-900 dark:text-white">Sobre</h2>
         </div>
 
