@@ -1,4 +1,26 @@
+import { useState, useEffect } from 'react';
+
 export function Hero() {
+  const [displayText, setDisplayText] = useState('');
+  const fullText = '>_ olá, meu nome é';
+
+  useEffect(() => {
+    let index = 0;
+    const timer = setInterval(() => {
+      if (index < fullText.length) {
+        setDisplayText(fullText.slice(0, index + 1));
+        index++;
+      } else {
+        clearInterval(timer);
+      }
+    }, 75); // Velocidade de digitação por caractere (em milissegundos)
+
+    return () => clearInterval(timer);
+  }, []);
+
+
+
+
   return (
     <section
       id="hero"
@@ -6,8 +28,9 @@ export function Hero() {
     >
       <div className="max-w-4xl mx-auto">
         {/* Saudação estilo Terminal */}
-        <p className="text-emerald-600 dark:text-emerald-400 font-mono font-medium text-base mb-3">
-          &gt;_ olá, meu nome é
+        <p className="text-emerald-600 dark:text-emerald-400 font-mono font-medium text-base mb-3 h-6 flex items-center">
+          <span>{displayText}</span>
+          <span className="inline-block w-2 h-4 ml-1 bg-emerald-600 dark:bg-emerald-400 animate-pulse" />
         </p>
 
         <h1 className="text-5xl sm:text-7xl font-extrabold text-gray-900 dark:text-white tracking-tight mb-4">
